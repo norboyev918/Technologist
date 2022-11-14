@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tenor+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "heebo";
+}
+
+.continer {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.naobar {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.naobar ul {
+    display: flex;
+    column-gap: 30px;
+    float: right;
+    padding-top: 27px;
+    padding-right: 60px;
+}
+
+.naobar ul li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Dark */
+
+    color: #21243D;
+}
+
+.block {
+    width: 682px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.name h1 {
+    max-width: 506px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
+    font-style: normal;
+    color: #21243D;
+}
+
+.name-1 {
+    display: flex;
+    column-gap: 17px;
+    padding-top: 32px;
+}
+
+.name-1 button {
+    background: #FF7C7C;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    border: none;
+    /* identical to box height, or 333% */
+
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+
+    color: #FFFFFF;
+}
+
+.name-1 p {
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+.name p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+    padding-top: 23px;
+}
+
+.name img {
+    width: 681px;
+    height: 460px;
+    padding-top: 46px;
+}
+
+.name h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    /* or 200% */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+    padding-top: 60px;
+}
+
+.name h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    /* or 250% */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+.title {
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 54px;
+}
+
+.image {
+    padding-top: 51px;
+}
+
+.image .nike {
+    padding-left: 35px;
+}
+
+.title p {
+    padding-top: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tenor+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.continer {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.naobar {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.naobar ul {
+    display: flex;
+    column-gap: 33px;
+    float: right;
+    padding-right: 60px;
+}
+
+.naobar ul li a {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000;
+}
+
+.block {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.works {
+    width: 860px;
+    margin: 0 auto;
+    padding-top: 158px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 110px;
+}
+
+.name {
+    width: 497px;
+    margin: 0 auto;
+}
+
+.name h1 {
+    max-width: 497px;
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+}
+
+.name p {
+    max-width: 497px;
+    font-family: "heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 40px;
+    line-height: 24px;
+    color: #21243d;
+}
+
+.name .buton {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 9px 20px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    margin-top: 38px;
+}
+
+.image {
+    width: 243px;
+    height: 243px;
+
+}
+
+.port {
+    background: #EDF7FA;
+    margin-top: 71px;
+}
+
+.nik {
+    display: flex;
+    column-gap: 675px;
+}
+
+.nik p {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    /* identical to box height, or 
+    273% */
+    align-items: flex-end;
+    /* dark color */
+    color: #21243d;
+}
+
+.nik .port-1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    padding-top: 20px;
+
+    /* Secondry */
+
+    color: #00A8CC;
+}
+
+.card {
+    display: flex;
+    column-gap: 22px;
+    padding-top: 22px;
+}
+
+.card-1 {
+    width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.nike h1 {
+    max-width: 374px;
+    margin: 0 auto;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+
+    /* Dark Color */
+
+    color: #21243D;
+    padding-top: 24px;
+}
+
+.nike-1 {
+    max-width: 374px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 26px;
+    padding-top: 20px;
+}
+
+.nike-1 p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+.nike-2 p {
+    max-width: 368px;
+    margin: 0 auto;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 21px;
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+.foter p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    padding-top: 30px;
+    /* identical to box height, or 273% */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+
+.list {
+    display: flex;
+    column-gap: 18px;
+    padding-top: 32px;
+}
+
+.rectangle img {
+    width: 246px;
+    height: 180px;
+}
+
+.list_item {
+    width: 594px;
+    margin: 0 auto;
+}
+
+.point h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    /* Dark Color */
+
+    color: #21243D;
+}
+
+.list_second {
+    display: flex;
+    column-gap: 26px;
+    padding-top: 20px;
+}
+
+.list_second .buton-1 {
+    background: #142850;
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 1px 5px;
+}
+
+.list_second p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Light */
+
+    color: #8695A4;
+}
+
+.point-1 p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 22px;
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+
+.cloudy {
+    margin-top: 22px;
+    border: 1px solid #E0E0E0;
+
+}
+
+.logo {
+    padding-top: 83px;
+}
+
+.logo-1 {
+    width: 225px;
+    display: flex;
+    column-gap: 35px;
+    margin-top: 51px;
+    margin: 0 auto;
+}
+
+.logo-1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo p {
+    text-align: center;
+    padding-top: 26px;
+    font-family: "heebo";
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    font-weight: 400;
+    padding-bottom: 54px;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo';
+}
+
+.continer {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.naobar ul {
+    display: flex;
+    float: right;
+    column-gap: 50px;
+    list-style-type: none;
+}
+
+.naobar a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+.naobar a:hover {
+    color: #FF6464;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.block {
+    width: 682px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.name h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.car {
+    margin-top: 55px;
+    margin-bottom: 53px;
+}
+
+.car h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.car_1 {
+    margin-top: 16px;
+    display: flex;
+}
+
+.car_1 .card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+
+.car_1 img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.car_1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.car p {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.car img {
+    padding-top: 25px;
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 54px;
+}
+
+.image {
+    padding-top: 51px;
+}
+
+.image .nik {
+    padding-left: 35px;
+}
+
+.title p {
+    padding-top: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
